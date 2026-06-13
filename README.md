@@ -31,10 +31,15 @@ show.
 
 ## Install
 
-Copy or symlink the `hairline.koplugin/` directory into your KOReader plugins
-folder:
+This repository *is* the plugin directory — clone it directly into your
+KOReader plugins folder under the name `hairline.koplugin`:
 
-| Platform | Path |
+```sh
+git clone https://github.com/sypianski/hairline.koplugin \
+    ~/.config/koreader/plugins/hairline.koplugin
+```
+
+| Platform | Plugins folder |
 |---|---|
 | Linux (native) | `~/.config/koreader/plugins/` |
 | Kobo / Kindle / PocketBook | `koreader/plugins/` on the device |
